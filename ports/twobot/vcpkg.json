@@ -1,0 +1,26 @@
+{
+  "name": "twobot",
+  "version": "0.0.1",
+  "description": "A modern OneBot framewrok for modern C++.",
+  "homepage": "https://github.com/liyk123/TwoBot",
+  "license": "MIT",
+  "dependencies": [
+    "brynet",
+    "bshoshany-thread-pool",
+    {
+      "name": "cpp-httplib",
+      "default-features": false
+    },
+    "nlohmann-json",
+    "openssl",
+    "tbb",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}

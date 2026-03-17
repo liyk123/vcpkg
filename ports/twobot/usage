@@ -1,0 +1,4 @@
+TwoBot provides CMake targets:
+
+find_package(twobot CONFIG REQUIRED)
+target_link_libraries(main PRIVATE twobot::twobot)

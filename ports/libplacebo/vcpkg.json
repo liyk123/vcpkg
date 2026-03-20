@@ -1,0 +1,14 @@
+{
+    "name": "libplacebo",
+    "version": "v7.360.1",
+    "description": "A renderer of mpv",
+    "dependencies": [
+        "vulkan-headers",
+        "fast_float",
+        "glad",
+        {
+            "name": "vcpkg-meson",
+            "host": true
+        }
+    ]
+}

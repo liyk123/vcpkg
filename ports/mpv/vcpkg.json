@@ -1,0 +1,20 @@
+{
+    "name": "mpv",
+    "version": "v0.41.0",
+    "description": "Video player based on MPlayer and mplayer2",
+    "dependencies": [
+        "ffmpeg",
+        "libass",
+        "zlib",
+        "uchardet",
+        "fontconfig",
+        "libxml2",
+        "lua",
+        "mbedtls",
+        "libunibreak",
+        {
+            "name": "vcpkg-meson",
+            "host": true
+        }
+    ]
+}

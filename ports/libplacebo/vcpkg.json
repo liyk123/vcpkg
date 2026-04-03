@@ -1,0 +1,17 @@
+{
+  "name": "libplacebo",
+  "version": "7.360.1",
+  "description": "Reusable library for GPU-accelerated video/image rendering",
+  "dependencies": [
+    "fast-float",
+    "shaderc",
+    {
+      "name": "vcpkg-get-python-packages",
+      "host": true
+    },
+    {
+      "name": "vcpkg-tool-meson",
+      "host": true
+    }
+  ]
+}

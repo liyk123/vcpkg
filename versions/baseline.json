@@ -6588,6 +6588,10 @@
       "baseline": "2021-12-01",
       "port-version": 0
     },
+    "mpv": {
+      "baseline": "0.41.0",
+      "port-version": 0
+    },
     "mqtt-cpp": {
       "baseline": "13.2.2",
       "port-version": 0
